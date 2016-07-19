@@ -10,7 +10,11 @@
     <form id="form1" runat="server">
     <div>
         <p>Logo below:</p>
-    <img src="http://placehold.it/500x150" />
+        <img src="http://placehold.it/500x150" />
+        <p>Testing submit button:</p>
+        <asp:Button ID="Button1" runat="server" Text="sUBMIT" OnClick="ButtonIsClicked"/>
+
+
     </div>
     </form>
 </body>
